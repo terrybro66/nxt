@@ -2,9 +2,9 @@ import { Ping } from '#/ui/Ping';
 import {
   RecommendedProducts,
   RecommendedProductsSkeleton,
-} from 'app/streaming/_components/RecommendedProducts';
-import { Reviews, ReviewsSkeleton } from 'app/streaming/_components/Reviews';
-import { SingleProduct } from 'app/streaming/_components/SingleProduct';
+} from '#/ap2/streaming/_components/RecommendedProducts';
+import { Reviews, ReviewsSkeleton } from '#/ap2/streaming/_components/Reviews';
+import { SingleProduct } from '#/ap2/streaming/_components/SingleProduct';
 import { Suspense } from 'react';
 
 export const runtime = 'experimental-edge';

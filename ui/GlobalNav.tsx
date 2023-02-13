@@ -22,10 +22,12 @@ export function GlobalNav() {
         >
           <div className="h-7 w-7 rounded-full border border-white/30 group-hover:border-white/50">
             <NextLogo />
+            asdasdasdadadasd
           </div>
 
           <h3 className="font-semibold tracking-wide text-gray-400 group-hover:text-gray-50">
-            App Directory <span className="Work in progress">(WIP)</span>
+            App Directory!!!!!!!!!!!!!!!!!!!!!!!!!!!!!{' '}
+            <span className="Work in progress">(WIP)</span>
           </h3>
         </Link>
       </div>
@@ -35,7 +37,7 @@ export function GlobalNav() {
         onClick={() => setIsOpen(!isOpen)}
       >
         <div className="font-medium text-gray-100 group-hover:text-gray-400">
-          Menu
+          Menu!!!!!!!!!!!!!!!!!!!!!!!!!!!
         </div>
         {isOpen ? (
           <XIcon className="block w-6 text-gray-400" />
